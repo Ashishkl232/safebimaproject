@@ -28,6 +28,14 @@ $(document).ready(function(){
     });
 });
 
+$.get("header2.html", function(data){
+    $("#head").replaceWith(data);
+});
+
+$.get("footer2.html", function(data){
+    $("#footer").replaceWith(data);
+});
+
 
 
 
