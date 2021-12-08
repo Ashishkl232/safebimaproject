@@ -39,6 +39,8 @@ $.get("footer2.html", function(data){
 
 
 
+
+
       //content collaps script
       jQuery('document').ready(function($){
         $('.dropdown__top').click(function(){
