@@ -1,12 +1,9 @@
-    
-
-    <!-- Main Header end -->
-   <div id="head">
+  <!-- Main Header end -->
+     <div id="head">
        
    </div>
-
-
-    <!-- Main Banner start -->
+   
+ <!-- Main Banner start -->
 
     <section class="banner">
 
@@ -1179,6 +1176,19 @@
     <!-- Scripts --> 
         <script src="js/framework.js"></script>
         <script src="js/custom.js"></script>
+
+        <script>
+            $(function(){
+             $("#head").load("header2.html");
+        });
+        </script>
+        
+        <script>
+            $(function(){
+             $("#footer").load("footer2.html");
+        });
+        
+        </script>
     <!-- Scripts end-->
 	
     <script>
@@ -1537,19 +1547,7 @@
                         var h = document.getElementsByTagName('script')[0];
                         h.parentNode.insertBefore(script, h);
    </script>
-<script>
-    $(function(){
-     $("#head").load("header2.html");
-});
-</script>
 
-
-<script>
-    $(function(){
-     $("#footer").load("footer2.html");
-});
-
-</script>
 
 </body>
 
