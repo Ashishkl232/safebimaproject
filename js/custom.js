@@ -28,16 +28,25 @@ $(document).ready(function(){
     });
 });
 
-$.get("header2.html", function(data){
-    $("#head").replaceWith(data);
-});
-
-$.get("footer2.html", function(data){
-    $("#footer").replaceWith(data);
-});
 
 
+            $(function(){
+             $("#head").load("header2.html");
+        });
+        
+        
+        
+        
+           $(function(){
+             $("#footer").load("footer2.html");
+        });
+        
+        
+        
 
+                
+
+        
 
 
 
